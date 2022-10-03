@@ -1,0 +1,112 @@
+.fourth__container {
+    position: relative;
+  }
+  
+  .fourth__block {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+  }
+  
+  .fourth__title {
+    position: relative;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 25.6688px;
+    line-height: 31px;
+  }
+  
+  .fourth__title::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/line_second.svg);
+    width: 170.41px;
+    height: 2.85px;
+    background-size: contain;
+    top: 49.04px;
+    left: 157px;
+  }
+  
+  .fourth__title::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/oval_second.svg);
+    width: 306.6px;
+    height: 29.23px;
+    z-index: -1;
+    top: 10px;
+    left: 89.2px;
+  }
+  
+  .fourth__text {
+    margin-top: 2.74rem;
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 14.2604px;
+    line-height: 20px;
+    max-width: 627px;
+  }
+
+  .fourth__text p:first-child {
+    margin-top: 0;
+  }
+  
+  .fourth__text p {
+    margin-top: 1.1rem;
+    text-align: center;
+  }
+  
+  .boxes {
+    display: flex;
+    margin-top: 5.16rem;
+    width: 47.23rem;
+    justify-content: space-between;
+  }
+  
+  .box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 242.43px;
+    height: 271.66px;
+    border: 1px solid #DFDEDE;
+    border-radius: 20px;;
+    background: #FFFFFF;
+  }
+  
+  .box-item__photo {
+    padding: 33.51px 57.75px;
+  }
+  
+  .box-item__title {
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 12.8344px;
+    line-height: 16px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .box-item__title::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/quiz-item__line.png);
+    width: 142.6px;
+    height: 2.85px;
+    top: 2.87rem;
+    left: 50px;
+  }
+  
+  .decor-rocket {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .decor-ellipse_fourth {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }

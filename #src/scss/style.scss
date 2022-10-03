@@ -47,7 +47,7 @@ body {
 
 
 :root {
-  --container-width: 1490px;
+  --container-width: 75rem;
   --container-padding: 15px;
 }
 
@@ -68,27 +68,34 @@ body {
 }
 
 .first__container {
+  width: 100%;
+  position: relative;
+}
+
+.first__block {
   display: flex;
+  flex-direction: row;
   margin-left: auto;
   max-width: var(--container-width);
+  height: 100%;
 }
 
 .first__content {
-  max-width: 450px;
+  max-width: 320px;
   margin: auto 0;
 }
 
 .first__title {
   font-family: Montserrat-ExtraBold, sans-serif;
-  font-size: 46px;
-  line-height: 56px;
+  font-size: 33px;
+  line-height: 40px;
   margin-top: 20px;
 }
 
 .first__text {
   font-family: Montserrat-Medium, sans-serif;
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 23px;
   margin-top: 30px;
 }
 
@@ -97,44 +104,49 @@ body {
 }
 
 .actions-first__button {
-  width: 340px;
-  height: 68px;
+  width: 242.43px;
+  height: 48.49px;
   background: linear-gradient(180deg, #ED769C 0%, #BB466B 100%);
+  border: 0px;
   font-family: Montserrat-Bold, sans-serif;
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
-  border-radius: 8px;
+  border-radius: 5.70417px;
   margin-top: 55px;
 }
 
 .shadow-first__button {
   position: absolute;
   top: 80px;
-  width: 340px;
-  height: 85px;
+  width: 242.43px;
+  height: 60.61px;
   background: rgba(171, 4, 54, 0.2);
-  filter: blur(40px);
-  border-radius: 4px;
+  filter: blur(14.2604px);
+  border-radius: 2.85208px;
 }
 
 .decor-one__image {
   margin-top: auto;
   align-self: flex-end;
   position: relative;
+  width: fit-content;
+  height: fit-content;
   z-index: 3;
 }
 
 .decor-one__image img{
   width: 95%;
+  height: 95%;
   overflow : hidden;
 }
 
 .decor-ellipse_big {
   position: absolute;
+  top: 0;
   right: 0;
   height: 100%;
-  z-index: 2;
+  z-index: -1;
 }
 
 .decor-ellipse_one_small {
@@ -185,8 +197,8 @@ body {
 
 .second__title {
   font-family: Montserrat-Bold, sans-serif;
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 25.6687px;
+  line-height: 31px;
   position: relative;
   height: fit-content;
   max-width: 450px;
@@ -215,16 +227,16 @@ body {
 
 .second__text {
   font-family: Montserrat-Regular, sans-serif;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 12.8344px;
+  line-height: 20px;
   max-width: 450px;
   height: fit-content;
 }
 
 .second__text_span {
   font-family: Montserrat-Bold, sans-serif;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 12.8344px;
+  line-height: 20px;
 }
 
 .second__text p {

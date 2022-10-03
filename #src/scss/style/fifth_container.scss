@@ -1,0 +1,120 @@
+.fifth__container {
+    position: relative;
+  }
+  
+  .fifth__block {
+    padding-top: 4%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+  
+  }
+  
+  .fifth__title {
+    position: relative;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 25.6688px;
+    line-height: 31px;
+  }
+  
+  .fifth__title::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/line_second.svg);
+    width: 170.41px;
+    height: 2.85px;
+    background-size: contain;
+    top: 49.04px;
+    left: 62px;
+  }
+  
+  .fifth__title::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/oval_second.svg);
+    width: 306.6px;
+    height: 29.23px;
+    z-index: -1;
+    top: 10px;
+    right: -2px;
+  }
+  
+  .fifth__grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: 40% 60%;
+    grid-template-columns: 1fr 306px;
+    column-gap: 150px;
+    margin-right: calc(100% - 75rem);
+    margin-left: calc(100% - 85rem);
+  }
+  
+  .fifth__photo {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  
+  .fifth__text {
+    align-self: flex-end;
+    font-family: Montserrat-ExtraBold, sans-serif;
+    font-size: 15.6865px;
+    line-height: 23px;
+  }
+  
+  .fifth__form-box input {
+    background: #FFFFFF;
+    border: 1px solid #A7A7A7;
+    border-radius: 4px;
+    width: 306.6px;
+    height: 42.78px;
+    margin-top: 28px;
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0 21px;
+  }
+  
+  .fifth__form-box input::placeholder {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 12.8344px;
+    line-height: 16px;
+  }
+  
+  .fifth__form-box button {
+    width: 242.43px;
+    height: 48.49px;
+    background: linear-gradient(180deg, #ED769C 0%, #BB466B 100%);
+    border-radius: 5.70417px;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 14.2604px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-top: 28px;
+    position: relative;
+  }
+  
+  .shadow-fifth__button {
+    position: absolute;
+    background: rgba(171, 4, 54, 0.2);
+    filter: blur(14.2604px);
+    border-radius: 2.85208px;
+    width: 242.43px;
+    height: 60.61px;
+    top: 15.69px;
+  }
+  
+  .fifth__footer {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 9.98229px;
+    line-height: 12px;
+    margin-top: 2rem;
+  }
+  
+  .decor-ellipse_fifth {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }

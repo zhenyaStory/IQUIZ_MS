@@ -1,0 +1,113 @@
+.third__container {
+    position: relative;
+  }
+  
+.third__block {
+  padding-top: 4%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+}
+
+.third__title {
+  position: relative;
+  font-family: Montserrat-Bold, sans-serif;
+  font-size: 25.6687px;
+  line-height: 31px;
+  width: fit-content;
+}
+
+.third__title::after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/line_second.svg);
+  width: 170.41px;
+  height: 2.85px;
+  background-size: contain;
+  top: 49.04px;
+  left: 85.9px;
+}
+
+.third__title::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/oval_second.svg);
+  width: 306.6px;
+  height: 29.23px;
+  z-index: -1;
+  top: 10px;
+  left: 18.54px;
+}
+
+.third__description {
+  margin-top: 3.4rem;
+  font-family: Montserrat-Regular, sans-serif;
+  font-size: 14.2604px;
+  line-height: 20px;
+  max-width: 880px;
+}
+
+.third__description p {
+  margin-top: 1.1rem;
+  text-align: center;
+}
+
+.third__description p:first-child {
+  margin-top: 0;
+}
+
+.quizzes_box {
+  display: flex;
+  margin-top: 2.2rem;
+}
+
+.quiz-item {
+  display: flex;
+  flex-direction: column;
+  width: 278.08px;
+  padding: 17.83px;
+  margin-right: 20px;
+  border: 1px solid #DFDEDE;
+  border-radius: 20px;;
+  background: #FFFFFF;
+}
+
+.quiz-item__title {
+  font-family: Montserrat-Bold, sans-serif;
+  font-size: 12.8344px;
+  line-height: 16px;
+  margin-top: 1.29rem;
+  position: relative;
+}
+
+.quiz-item__title::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/quiz-item__line.svg);
+  width: 121.21px;
+  height: 2.85px;
+  top: 1.57rem;
+}
+
+.quiz-item__text {
+  font-family: Montserrat-Regular, sans-serif;
+  font-size: 11.4083px;
+  line-height: 17px;
+  margin-top: 1.1rem;
+}
+
+.decor-notes_third {
+  position: absolute;
+  top: 90px;
+  right: 0;
+  z-index: -1;
+  width: fit-content;
+  height: fit-content;
+}
+
+.decor-notes_third img {
+  width: 80%;
+  height: 80%;
+}
