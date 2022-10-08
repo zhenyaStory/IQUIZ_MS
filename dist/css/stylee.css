@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Montserrat-Bold";
   font-display: swap;
-  src: url("fonts/Montserrat-Bold.woff") format("woff"), url("fonts/Montserrat-Bold.woff2") format("woff2");
+  src: url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -11,7 +11,7 @@
 @font-face {
   font-family: "Montserrat-ExtraBold";
   font-display: swap;
-  src: url("fonts/Montserrat-ExtraBold.woff") format("woff"), url("fonts/Montserrat-ExtraBold.woff2") format("woff2");
+  src: url("../fonts/Montserrat-ExtraBold.woff") format("woff"), url("../fonts/Montserrat-ExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
@@ -19,7 +19,7 @@
 @font-face {
   font-family: "Montserrat-Medium";
   font-display: swap;
-  src: url("fonts/Montserrat-Medium.woff") format("woff"), url("fonts/Montserrat-Medium.woff2") format("woff2");
+  src: url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
@@ -27,7 +27,7 @@
 @font-face {
   font-family: "Montserrat-Regular";
   font-display: swap;
-  src: url("fonts/Montserrat-Regular.woff") format("woff"), url("fonts/Montserrat-Regular.woff2") format("woff2");
+  src: url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -35,7 +35,7 @@
 @font-face {
   font-family: "Montserrat-SemiBold";
   font-display: swap;
-  src: url("fonts/Montserrat-SemiBold.woff") format("woff"), url("fonts/Montserrat-SemiBold.woff2") format("woff2");
+  src: url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
 }
@@ -133,14 +133,14 @@ body {
 }
 
 .first__title {
-  font-family: Montserrat-ExtraBold, sans-serif;
+  font-family: "Montserrat-ExtraBold";
   font-size: 33px;
   line-height: 40px;
   margin-top: 20px;
 }
 
 .first__text {
-  font-family: Montserrat-Medium, sans-serif;
+  font-family: "Montserrat-Medium";
   font-size: 16px;
   line-height: 23px;
   margin-top: 30px;
@@ -157,7 +157,7 @@ body {
   background: -o-linear-gradient(top, #ED769C 0%, #BB466B 100%);
   background: linear-gradient(180deg, #ED769C 0%, #BB466B 100%);
   border: 0px;
-  font-family: Montserrat-Bold, sans-serif;
+  font-family: "Montserrat-Bold";
   font-size: 14.2604px;
   line-height: 17px;
   color: #FFFFFF;
@@ -247,7 +247,7 @@ body {
 }
 
 .second__title {
-  font-family: Montserrat-Bold, sans-serif;
+  font-family: "Montserrat-Bold";
   font-size: 25.6687px;
   line-height: 31px;
   position: relative;
@@ -283,7 +283,7 @@ body {
 }
 
 .second__text {
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: "Montserrat-Regular";
   font-size: 12.8344px;
   line-height: 20px;
   max-width: 450px;
@@ -294,7 +294,7 @@ body {
 }
 
 .second__text_span {
-  font-family: Montserrat-Bold, sans-serif;
+  font-family: "Montserrat-Bold";
   font-size: 12.8344px;
   line-height: 20px;
 }
@@ -373,7 +373,7 @@ body {
 
 .third__title {
   position: relative;
-  font-family: Montserrat-Bold, sans-serif;
+  font-family: "Montserrat-Bold";
   font-size: 25.6687px;
   line-height: 31px;
   width: -webkit-fit-content;
@@ -405,7 +405,7 @@ body {
 
 .third__description {
   margin-top: 3.4rem;
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: "Montserrat-Regular";
   font-size: 14.2604px;
   line-height: 20px;
   max-width: 880px;
@@ -444,7 +444,7 @@ body {
 }
 
 .quiz-item__title {
-  font-family: Montserrat-Bold, sans-serif;
+  font-family: "Montserrat-Bold";
   font-size: 12.8344px;
   line-height: 16px;
   margin-top: 1.29rem;
@@ -461,7 +461,7 @@ body {
 }
 
 .quiz-item__text {
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: "Montserrat-Regular";
   font-size: 11.4083px;
   line-height: 17px;
   margin-top: 1.1rem;
@@ -509,7 +509,7 @@ body {
 
 .fourth__title {
   position: relative;
-  font-family: Montserrat-Bold, sans-serif;
+  font-family: "Montserrat-Bold";
   font-size: 25.6688px;
   line-height: 31px;
 }
@@ -538,7 +538,7 @@ body {
 
 .fourth__text {
   margin-top: 2.74rem;
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: "Montserrat-Regular";
   font-size: 14.2604px;
   line-height: 20px;
   max-width: 627px;
@@ -587,7 +587,7 @@ body {
 }
 
 .box-item__title {
-  font-family: Montserrat-Bold, sans-serif;
+  font-family: "Montserrat-Bold";
   font-size: 12.8344px;
   line-height: 16px;
   position: relative;
@@ -644,7 +644,7 @@ body {
 
 .fifth__title {
   position: relative;
-  font-family: Montserrat-Bold, sans-serif;
+  font-family: "Montserrat-Bold";
   font-size: 25.6688px;
   line-height: 31px;
 }
@@ -691,7 +691,7 @@ body {
 .fifth__text {
   -ms-flex-item-align: end;
       align-self: flex-end;
-  font-family: Montserrat-ExtraBold, sans-serif;
+  font-family: "Montserrat-ExtraBold";
   font-size: 15.6865px;
   line-height: 23px;
 }
@@ -703,38 +703,38 @@ body {
   width: 306.6px;
   height: 42.78px;
   margin-top: 28px;
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: "Montserrat-Regular";
   font-size: 18px;
   line-height: 22px;
   padding: 0 21px;
 }
 
 .fifth__form-box input::-webkit-input-placeholder {
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: "Montserrat-Regular";
   font-size: 12.8344px;
   line-height: 16px;
 }
 
 .fifth__form-box input::-moz-placeholder {
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: "Montserrat-Regular";
   font-size: 12.8344px;
   line-height: 16px;
 }
 
 .fifth__form-box input:-ms-input-placeholder {
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: "Montserrat-Regular";
   font-size: 12.8344px;
   line-height: 16px;
 }
 
 .fifth__form-box input::-ms-input-placeholder {
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: "Montserrat-Regular";
   font-size: 12.8344px;
   line-height: 16px;
 }
 
 .fifth__form-box input::placeholder {
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: "Montserrat-Regular";
   font-size: 12.8344px;
   line-height: 16px;
 }
@@ -746,7 +746,7 @@ body {
   background: -o-linear-gradient(top, #ED769C 0%, #BB466B 100%);
   background: linear-gradient(180deg, #ED769C 0%, #BB466B 100%);
   border-radius: 5.70417px;
-  font-family: Montserrat-Bold, sans-serif;
+  font-family: "Montserrat-Bold";
   font-size: 14.2604px;
   line-height: 17px;
   color: #FFFFFF;
@@ -766,7 +766,7 @@ body {
 }
 
 .fifth__footer {
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: "Montserrat-Regular";
   font-size: 9.98229px;
   line-height: 12px;
   margin-top: 2rem;

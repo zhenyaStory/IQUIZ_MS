@@ -197,7 +197,7 @@ function clean(params) {
     return del(path.clean);
 }
 
-let build = gulp.series(clean, gulp.parallel(js, css, html, images, fonts), gulp.parallel(fontsStyle,  browserSync));
+let build = gulp.series(clean, gulp.parallel(js, css, html, images, fonts), gulp.parallel(fontsStyle, browserSync));
 let watch = gulp.parallel(build, watchFiles);
 
 exports.fontsStyle = fontsStyle;
